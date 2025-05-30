@@ -1,0 +1,69 @@
+/* Custom styles for the Admission Probability Calculator */
+
+body {
+    background-color: #f8f9fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.card-header {
+    border-radius: 8px 8px 0 0 !important;
+    font-weight: 600;
+}
+
+.form-label {
+    font-weight: 500;
+}
+
+.table th {
+    position: sticky;
+    top: 0;
+    background-color: #212529;
+    z-index: 1;
+}
+
+.probability-high {
+    color: #198754;
+    font-weight: bold;
+}
+
+.probability-medium {
+    color: #fd7e14;
+    font-weight: bold;
+}
+
+.probability-low {
+    color: #dc3545;
+    font-weight: bold;
+}
+
+.insufficient-data {
+    color: #6c757d;
+    font-style: italic;
+}
+
+#loadingIndicator {
+    padding: 30px;
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+    
+    .card-body {
+        padding: 15px;
+    }
+}
